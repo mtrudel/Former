@@ -2,7 +2,7 @@ Former is a wrapper around a minimal web interface meant to provide interstitial
 
 Example usage:
 
- 	survey = Former.new 'survey.html' # This call will set up a
+ 	survey = Former.new 'survey.html' # This call will set up a survey object, and prep the server to run
  	survey.run
  	survey			 # Survey now holds the parameters from survey.html as a hash
 	
