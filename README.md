@@ -3,7 +3,7 @@ Former is a wrapper around a minimal web interface meant to provide interstitial
 Example usage:
 
  	survey = Former.new 'survey.html' # This call will set up a survey object, and prep the server to run
- 	survey.run
- 	survey			 # Survey now holds the parameters from survey.html as a hash
+ 	survey.run	# This fires a browser and blocks until the user submits the form therein
+ 	survey	# Survey now holds the parameters from survey.html as a hash
 	
 Currently, only single-page single-form templates are supported (and then, only in raw HTML). Support for HAML and multi-step forms is planned. 
